@@ -1,0 +1,25 @@
+# Ignore node_modules directory
+frontend/node_modules/
+
+# Ignore built files
+/dist/
+/.nuxt/
+npm-debug.log
+
+# Ignore local config files
+.env.local
+.env.*.local
+
+# Ignore the .env file that contains sensitive information
+.env
+
+# Ignore logs and databases
+/logs/
+/db.sqlite
+
+# Ignore .DS_Store files on macOS
+.DS_Store
+
+# Ignore yarn.lock or package-lock.json files
+yarn.lock
+package-lock.json
